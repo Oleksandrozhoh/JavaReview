@@ -44,6 +44,16 @@ public class Person {
         this.gender = gender;
     }
 
+    public void eat(){
+        System.out.println(name + " is eating");
+    }
+    public void drink(){
+        System.out.println(name + " is drinking");
+    }
+    public void sleep(){
+        System.out.println(name+" is sleeping");
+    }
+
 
     public String toString() {
         return getClass().getSimpleName()+"{" +
@@ -52,4 +62,5 @@ public class Person {
                 ", gender=" + gender +
                 '}';
     }
+
 }
